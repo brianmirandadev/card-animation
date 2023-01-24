@@ -1,0 +1,90 @@
+body,
+html {
+  width: 100%;
+  height: 100vh;
+  background-color: #e3f0ff80;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:root {
+  --phone-color: white;
+}
+
+.phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(-10px 10px 10px #00000080);
+  -webkit-filter: drop-shadow(-10px 10px 10px #00000080);
+}
+
+.cover {
+  background-color: var(--phone-color);
+  width: 408px;
+  height: 843px;
+  border-radius: 66px;
+}
+
+.switch {
+  background-color: var(--phone-color);
+  width: 9px;
+  height: 40px;
+  border-radius: 4.5px;
+  margin-left: -410px;
+  margin-top: -296px;
+}
+
+.volume {
+  background-color: var(--phone-color);
+  width: 9px;
+  height: 70px;
+  border-radius: 4.5px;
+  margin-left: -410px;
+  margin-top: 30px;
+}
+
+#vol2 {
+  margin-top: 10px;
+}
+
+.sideBtn {
+  background-color: var(--phone-color);
+  width: 9px;
+  height: 117px;
+  border-radius: 4.5px;
+  margin-left: -3px;
+  margin-top: -300px;
+}
+
+.screen {
+  background: linear-gradient(
+    139deg,
+    rgba(0, 6, 40, 1) 74%,
+    rgba(93, 59, 139, 1) 86%,
+    rgba(109, 127, 223, 1) 95%
+  );
+  width: 390px;
+  height: 830px;
+  border-radius: 68px;
+  border: 7pt solid var(--phone-color);
+  margin-left: -408px;
+  transform: scale(0.99);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notch {
+  background-color: var(--phone-color);
+  width: 200px;
+  height: 40px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  margin-left: -204px;
+  margin-top: -790px;
+  transform: translateX(-50%);
+}

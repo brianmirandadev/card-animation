@@ -1,0 +1,78 @@
+.wrapper {
+  background-color: transparent;
+  width: 380px;
+  height: 720px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #ffffff30;
+  width: 255px;
+  height: 380px;
+
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+
+  z-index: 12;
+}
+
+.inner-rectangle {
+  background-color: transparent;
+  width: calc(100% - 50px);
+  height: calc(100% - 50px);
+
+  border: 2px solid #ffffff30;
+  border-radius: 7px;
+  box-sizing: border-box;
+}
+
+.symbol1 {
+  background-color: #313651;
+  width: 60px;
+  height: 60px;
+
+  position: absolute;
+  bottom: calc(0% + 10px);
+  right: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.symbol2 {
+  background-color: #313651;
+  width: 60px;
+  height: 60px;
+
+  position: absolute;
+  top: calc(0% + 10px);
+  left: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.symbol1 svg,
+.symbol2 svg {
+  fill: #ffffff40;
+  width: 40px;
+}
+
+#joke-logo {
+  fill: black;
+}
